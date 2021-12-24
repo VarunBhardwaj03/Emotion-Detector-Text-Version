@@ -1,10 +1,12 @@
-## Devnagri Character Recognition Model
+## Emotion Detection using NLP
+So after analysing emotion of people based on their photos, I aspired to determine emotion of people based on their messages as well.
 
-After getting acquainted with CNN models and having the knowledge of MNSIT dataset, I was quivering to do something similar with Hindi language. 
-I found out Devnagri character recognition dataset on kaggle and started working on it.
+# Problem Statement
+Given a sentence by the user we have to predict the emotion relevant to it.
 
-To better understand the functioning of CNN models, I implemented the model myself without using transfer learning method.
+What is the sentiment of user as inferred from that comment?
 
-**After training the model for 100 epoch, my model had accuracy score of 99.69% on validation dataset. **
+# Dataset
+Dataset has 5 labels: joy, sad, anger, fear, and neutral. The texts mainly consist of short messages and dialog utterances.
+![MODEL](https://github.com/VarunBhardwaj03/Emotion-Detector-Text-Version/blob/main/Screen%20Shot%202021-12-25%20at%201.59.05%20AM.png)
 
-![Devnagri Characters](https://miro.medium.com/max/1200/1*RPSE6gLNhHex63JK-FOjNg.png)
